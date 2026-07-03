@@ -114,6 +114,10 @@ export default function Projects() {
               ))}
             </div>
 
+            <p className="text-xs text-gray-400 italic mb-5 -mt-3">
+              Live usage data · updated hourly
+            </p>
+
             {/* Impact highlight */}
             <div
               className="flex items-center gap-3 rounded-xl px-4 py-3 mb-8"
