@@ -1,8 +1,9 @@
 import Image from "next/image";
+import agroclimateStats from "@/data/agroclimate-stats.json";
 
 const usageStats = [
-  { value: "1,167",    label: "Total Users" },
-  { value: "2,838",    label: "Total Visits" },
+  { value: agroclimateStats.totalUsers.toLocaleString(),  label: "Total Users" },
+  { value: agroclimateStats.totalVisits.toLocaleString(), label: "Total Visits" },
   { value: "30+ days", label: "Active Engagement" },
 ];
 
