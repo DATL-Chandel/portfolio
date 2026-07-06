@@ -2,7 +2,7 @@ name: Update agroclimate stats
 
 on:
   schedule:
-    - cron: "0 * * * *" # hourly
+    - cron: "17 * * * *" # hourly, offset from :00 to avoid GitHub's peak-load queueing delays
   workflow_dispatch: {}
 
 permissions:
