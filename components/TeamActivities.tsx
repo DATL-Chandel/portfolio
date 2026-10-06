@@ -88,8 +88,8 @@ const activities: Activity[] = [
     category:       "Outreach",
     categoryColor:  "#C84B14",
     objectPosition: "top",
-    description:    "Growers explore the Agroclimate App during a presentation by Dr. Abhilash on using satellite and weather data for smarter farm decisions.",
-    fullDescription: "During a grower information session led by Dr. Abhilash, participants explore the Agroclimate Viewer and Planner App — a free, web-based tool developed by the DATL lab that integrates satellite imagery and real-time weather data. The app empowers Virginia farmers to make informed decisions on irrigation, fertilization, and harvest timing, putting precision agriculture intelligence directly in the hands of producers.",
+    description:    "Growers explore the Agroclimate Viewer and Planner App (AgroVAP) during a presentation by Dr. Abhilash on using satellite and weather data for smarter farm decisions.",
+    fullDescription: "During a grower information session led by Dr. Abhilash, participants explore the Agroclimate Viewer and Planner App (AgroVAP) — a free, web-based tool developed by the DATL lab that integrates satellite imagery and real-time weather data. The app empowers Virginia farmers to make informed decisions on irrigation, fertilization, and harvest timing, putting precision agriculture intelligence directly in the hands of producers.",
   },
 ];
 

@@ -2,7 +2,7 @@ const stats = [
   { label: "Google Scholar Citations", display: "1000+" },
   { label: "Publications",             display: "80+"   },
   { label: "Years of Experience",       display: "10+"   },
-  { label: "Extension Attendees",      display: "5,971+" },
+  { label: "Stakeholders Outreached", display: "6000+" },
 ];
 
 export default function Stats() {
