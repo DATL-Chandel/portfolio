@@ -78,7 +78,7 @@ const academicLinks = [
     href: "https://www.arec.vaes.vt.edu/arec/tidewater/people/faculty/abhilash-chandel.html",
   },
   {
-    label: "Agroclimate App",
+    label: "Agroclimate Viewer and Planner App (AgroVAP)",
     href: "https://datl-chandel.github.io/Agroclimate/",
   },
 ];

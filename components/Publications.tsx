@@ -16,7 +16,7 @@ const publications = [
   {
     code:     "BSE-372",
     category: "Decision Tool",
-    title:    "Agroclimate Viewer & Planner App",
+    title:    "Agroclimate Viewer & Planner App (AgroVAP)",
     image:    "/publications/bse-372-v2.png",
     position: "center 68%",
     color:    "#6b7fa3", // data-blue

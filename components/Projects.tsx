@@ -69,7 +69,7 @@ export default function Projects() {
           <div className="relative min-h-[280px]" style={{ background: "#0d2b4e" }}>
             <Image
               src="/publications/bse-372-v2.png"
-              alt="Agroclimate Viewer & Planner App"
+              alt="Agroclimate Viewer & Planner App (AgroVAP)"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover"
@@ -89,7 +89,7 @@ export default function Projects() {
               className="text-2xl font-bold mb-3 leading-snug"
               style={{ fontFamily: "var(--font-dm-sans)", color: "var(--foreground)" }}
             >
-              Agroclimate Viewer &amp; Planner App
+              Agroclimate Viewer &amp; Planner App (AgroVAP)
             </h3>
 
             <p className="text-sm text-gray-500 leading-relaxed mb-7">

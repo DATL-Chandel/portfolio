@@ -134,7 +134,7 @@ export default function Hero() {
                 onMouseEnter={(e) => ((e.currentTarget as HTMLAnchorElement).style.opacity = "1")}
                 onMouseLeave={(e) => ((e.currentTarget as HTMLAnchorElement).style.opacity = "0.6")}
               >
-                Agroclimate App
+                Agroclimate Viewer and Planner App (AgroVAP)
                 <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
                   <path d="M2 10L10 2M10 2H4.5M10 2V7.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
