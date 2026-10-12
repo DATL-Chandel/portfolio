@@ -71,7 +71,7 @@ export default function ResearchPublications() {
         </div>
 
         {/* ── Citation list ── */}
-        <ol className="flex flex-col">
+        <ol className="flex flex-col max-w-[1060px]">
           {publications.map((p, i) => (
             <li key={p.title}>
               <a
