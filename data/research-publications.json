@@ -1,0 +1,80 @@
+{
+  "profileUrl": "https://scholar.google.com/citations?user=xCaMSKYAAAAJ&hl=en&oi=ao",
+  "snapshotDate": "October 2026",
+  "totals": {
+    "journalArticles": 60,
+    "citations": 1250
+  },
+  "publications": [
+    {
+      "title": "Additively Manufactured in planta Integrated Microneedle-Microfluidic Sensing: Nondestructive Electrochemical Tracking of Glucose and Water Stress",
+      "authors": "FE Erukainure, BN Johnson, DB Langston, AK Chandel",
+      "venue": "ACS Sensors",
+      "year": 2026,
+      "citations": 6
+    },
+    {
+      "title": "Agroclimatic Sensing, Communication, and Computational Systems-Based Methods and Technologies for Precision Irrigation Management: Current State and Prospects",
+      "authors": "A Sarr, AK Chandel, L Diop, YM Soro, AK Tossa, S Hota et al.",
+      "venue": "Computers",
+      "year": 2026,
+      "citations": 5
+    },
+    {
+      "title": "Leaf wilting as a phenotypic indicator of heat and drought stress in crops: an overview of physiological mechanisms and machine learning applications",
+      "authors": "RR Vennam, AK Chandel, DC Haak, J Oakes, M Balota",
+      "venue": "Discover Agriculture 4 (1), 32",
+      "year": 2026,
+      "citations": 4
+    },
+    {
+      "title": "Toward Advanced Sensing and Data-Driven Approaches for Maturity Assessment of Indeterminate Peanut Cropping Systems: Review of Current State and Prospects",
+      "authors": "SRE Sahayaraj, AK Chandel, P Jjagwe, RR Vennam, M Balota et al.",
+      "venue": "Sensors 26 (7), 2208",
+      "year": 2026,
+      "citations": 3
+    },
+    {
+      "title": "Oxalate-Linked Electrochemistry Enables Early Detection of Sclerotinia Blight in Peanut Crops Using 3D-Printed Nanostructured Pt Sensors",
+      "authors": "FE Erukainure, BN Johnson, DB Langston, AK Chandel",
+      "venue": "ACS Agricultural Science & Technology",
+      "year": 2026,
+      "citations": 2
+    },
+    {
+      "title": "A UAV-to-Satellite Scaling Framework for Monitoring Cotton Boll Opening Using Sentinel-2 Earth Observations",
+      "authors": "A Manimozhian, P Jjagwe, AK Chandel",
+      "venue": "Land 15 (8), 1361",
+      "year": 2026,
+      "citations": 1
+    },
+    {
+      "title": "High-Throughput Phenotyping of Faba Bean Crop Using Remote Sensing Technologies and Data Analytics: A Systematic Assessment of Status and Trends Over Past Decade",
+      "authors": "P Jjagwe, AK Chandel, M Balota",
+      "venue": "Agricultural Research, 1-15",
+      "year": 2026,
+      "citations": 1
+    },
+    {
+      "title": "Agroclimatic Interactions Influencing Maturity of Virginia-Type Peanuts in Humid Subtropical Environments: Toward Sustainable Peanut Production",
+      "authors": "SRE Sahayaraj, AK Chandel, P Jjagwe, M Balota, J Forehand et al.",
+      "venue": "Agricultural Environment and Sustainability, 100025",
+      "year": 2026,
+      "citations": 1
+    },
+    {
+      "title": "Thermal Infrared Technologies for Precision Agriculture: A ROSES-Guided Systematic Evidence Synthesis on Platforms, Calibration, and Digital Analytics",
+      "authors": "A Manimozhian, AK Chandel",
+      "venue": "Agricultural Environment and Sustainability, 100014",
+      "year": 2026,
+      "citations": 1
+    },
+    {
+      "title": "Phenology-adaptive machine learning for early mapping of field-scale corn crop yield using fusion of Sentinel-2 satellite spectral imagery and weather-based accumulated heat units",
+      "authors": "A Manimozhian, AK Chandel",
+      "venue": "Precision Agriculture 27 (5), 128",
+      "year": 2026,
+      "citations": 0
+    }
+  ]
+}
