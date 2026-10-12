@@ -51,7 +51,8 @@ export default function Publications() {
       <div className="max-w-[1440px] mx-auto px-6">
 
         {/* ── Section header ── */}
-        <div className="mb-14 max-w-2xl">
+        <div className="mb-14 flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6">
+          <div className="max-w-2xl">
           <p
             className="text-xs font-semibold uppercase tracking-widest mb-3"
             style={{ color: "var(--vt-maroon)" }}
@@ -70,6 +71,21 @@ export default function Publications() {
             research into practical tools and field guidelines for Virginia
             growers.
           </p>
+          </div>
+
+          {/* VCE Publications CTA */}
+          <a
+            href="https://www.pubs.ext.vt.edu/content/pubs_ext_vt_edu/en/author/c/chandler-abhilash.resource.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm font-semibold text-white transition-all hover:opacity-90 hover:-translate-y-0.5 flex-shrink-0 self-start"
+            style={{ background: "var(--vt-maroon)" }}
+          >
+            View all on VCE Publications
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+              <path d="M2 10L10 2M10 2H4.5M10 2V7.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </a>
         </div>
 
         {/* ── Publication cards ── */}
@@ -136,25 +152,6 @@ export default function Publications() {
               </div>
             </a>
           ))}
-        </div>
-
-        {/* ── Footer CTA ── */}
-        <div className="mt-12 flex flex-wrap items-center gap-4">
-          <a
-            href="https://www.pubs.ext.vt.edu/content/pubs_ext_vt_edu/en/author/c/chandler-abhilash.resource.html"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm font-semibold text-white transition-all hover:opacity-90 hover:-translate-y-0.5"
-            style={{ background: "var(--vt-maroon)" }}
-          >
-            View all on VCE Publications
-            <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-              <path d="M2 10L10 2M10 2H4.5M10 2V7.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
-          </a>
-          <span className="text-sm text-gray-400 font-medium">
-            Virginia Cooperative Extension · Virginia Tech
-          </span>
         </div>
 
       </div>
