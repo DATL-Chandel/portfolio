@@ -112,23 +112,6 @@ export default function ResearchPublications() {
                     <span>{p.year}</span>
                   </p>
                 </div>
-
-                {/* Citation count */}
-                <div className="flex-shrink-0 self-start pt-0.5 text-right" style={{ minWidth: "5.5rem" }}>
-                  {p.citations > 0 ? (
-                    <span
-                      className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-[11px] font-semibold"
-                      style={{
-                        background: "rgba(134,31,65,0.07)",
-                        color: "var(--vt-maroon)",
-                      }}
-                    >
-                      {p.citations} {p.citations === 1 ? "citation" : "citations"}
-                    </span>
-                  ) : (
-                    <span className="text-[11px] font-medium text-gray-300">New</span>
-                  )}
-                </div>
               </a>
             </li>
           ))}
