@@ -27,7 +27,7 @@ function scholarSearchUrl(title: string) {
 }
 
 export default function ResearchPublications() {
-  const { profileUrl, snapshotDate, totals, publications } = data;
+  const { profileUrl, publications } = data;
 
   return (
     <section id="publications" className="pt-28 pb-16" style={{ background: "transparent" }}>
@@ -68,20 +68,6 @@ export default function ResearchPublications() {
               <path d="M2 10L10 2M10 2H4.5M10 2V7.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </a>
-        </div>
-
-        {/* ── Summary strip ── */}
-        <div
-          className="flex flex-wrap items-center gap-x-8 gap-y-2 mb-10 pb-6 border-b text-sm"
-          style={{ borderColor: "rgba(0,0,0,0.08)" }}
-        >
-          <span className="font-semibold" style={{ color: "var(--foreground)" }}>
-            {totals.journalArticles}+ journal articles
-          </span>
-          <span className="font-semibold" style={{ color: "var(--foreground)" }}>
-            {totals.citations.toLocaleString()}+ citations
-          </span>
-          <span className="text-gray-400">Google Scholar, as of {snapshotDate}</span>
         </div>
 
         {/* ── Citation list ── */}
