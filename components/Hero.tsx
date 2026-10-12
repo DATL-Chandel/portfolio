@@ -124,15 +124,19 @@ export default function Hero() {
                 </svg>
               </a>
 
-              {/* Tertiary — plain text link */}
+              {/* Tertiary — soft maroon tint pill */}
               <a
                 href="https://datl-chandel.github.io/Agroclimate/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 text-sm font-medium transition-all hover:-translate-y-0.5"
-                style={{ color: "var(--foreground)", opacity: 0.6 }}
-                onMouseEnter={(e) => ((e.currentTarget as HTMLAnchorElement).style.opacity = "1")}
-                onMouseLeave={(e) => ((e.currentTarget as HTMLAnchorElement).style.opacity = "0.6")}
+                className="inline-flex items-center gap-1.5 px-6 py-3 rounded-full text-sm font-semibold border transition-all hover:-translate-y-0.5"
+                style={{
+                  background:  "rgba(134,31,65,0.07)",
+                  borderColor: "rgba(134,31,65,0.15)",
+                  color:       "var(--vt-maroon)",
+                }}
+                onMouseEnter={(e) => ((e.currentTarget as HTMLAnchorElement).style.background = "rgba(134,31,65,0.12)")}
+                onMouseLeave={(e) => ((e.currentTarget as HTMLAnchorElement).style.background = "rgba(134,31,65,0.07)")}
               >
                 Agroclimate Viewer and Planner App (AgroVAP)
                 <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
