@@ -15,12 +15,12 @@ export default function Stats() {
 
         {/* Stats row — top divider separates it from hero cleanly */}
         <div
-          className="grid grid-cols-2 md:grid-cols-4"
+          className="grid grid-cols-2 lg:grid-cols-4 gap-x-4"
         >
           {stats.map((s) => (
             <div
               key={s.label}
-              className="flex items-center gap-3 py-6 px-6 first:pl-0 last:pr-0"
+              className="flex flex-col lg:flex-row lg:items-center gap-1 lg:gap-3 py-5 lg:py-6 lg:px-6 lg:first:pl-0 lg:last:pr-0"
             >
               <span
                 className="text-2xl font-bold tracking-tight leading-none"
@@ -29,7 +29,7 @@ export default function Stats() {
                 {s.display}
               </span>
               <span
-                className="text-sm text-gray-500 font-medium leading-tight"
+                className="text-[13px] lg:text-sm text-gray-500 font-medium leading-tight"
                 style={{ fontFamily: "var(--font-inter)" }}
               >
                 {s.label}

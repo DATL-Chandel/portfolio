@@ -32,7 +32,7 @@ const patents = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-28" style={{ background: "transparent" }}>
+    <section id="projects" className="py-16 md:py-28" style={{ background: "transparent" }}>
       <div className="max-w-[1440px] mx-auto px-6">
 
         {/* ── Section header ── */}
@@ -129,7 +129,7 @@ export default function Projects() {
               >
                 ~$200M
               </span>
-              <span className="text-xs text-gray-500 leading-tight whitespace-nowrap">
+              <span className="text-xs text-gray-500 leading-tight">
                 Modeled annual Virginia impact
               </span>
             </div>

@@ -30,7 +30,7 @@ export default function ResearchPublications() {
   const { profileUrl, publications } = data;
 
   return (
-    <section id="publications" className="pt-28 pb-16" style={{ background: "transparent" }}>
+    <section id="publications" className="pt-16 md:pt-28 pb-10 md:pb-16" style={{ background: "transparent" }}>
       <div className="max-w-[1440px] mx-auto px-6">
 
         {/* ── Section header ── */}
@@ -78,7 +78,7 @@ export default function ResearchPublications() {
                 href={scholarSearchUrl(p.title)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group flex gap-5 sm:gap-7 py-6 px-3 -mx-3 rounded-lg border-t transition-colors hover:bg-[rgba(134,31,65,0.035)]"
+                className="group flex gap-5 sm:gap-7 py-6 md:px-3 md:-mx-3 rounded-lg border-t transition-colors hover:bg-[rgba(134,31,65,0.035)]"
                 style={{ borderColor: "rgba(0,0,0,0.08)" }}
               >
                 {/* Index */}

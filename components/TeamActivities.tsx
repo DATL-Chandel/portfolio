@@ -109,7 +109,7 @@ export default function TeamActivities() {
   }, [active]);
 
   return (
-    <section id="team-activities" className="py-28" style={{ background: "transparent" }}>
+    <section id="team-activities" className="py-16 md:py-28" style={{ background: "transparent" }}>
       <div className="max-w-[1440px] mx-auto px-6">
 
         {/* ── Section header ── */}

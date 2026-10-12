@@ -47,7 +47,7 @@ const publications = [
 
 export default function Publications() {
   return (
-    <section id="extension-publications" className="pt-16 pb-28" style={{ background: "transparent" }}>
+    <section id="extension-publications" className="pt-10 md:pt-16 pb-16 md:pb-28" style={{ background: "transparent" }}>
       <div className="max-w-[1440px] mx-auto px-6">
 
         {/* ── Section header ── */}

@@ -57,7 +57,7 @@ export default function ResearchAreas() {
   const current = areas[active];
 
   return (
-    <section id="research" className="py-28" style={{ background: "transparent" }}>
+    <section id="research" className="py-16 md:py-28" style={{ background: "transparent" }}>
       <div className="max-w-[1440px] mx-auto px-6">
         {/* Section header */}
         <div className="mb-16 max-w-2xl">

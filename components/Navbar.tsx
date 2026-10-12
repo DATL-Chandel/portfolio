@@ -49,7 +49,7 @@ export default function Navbar() {
               <path d="M12.2 12.4C15.4 12.9 18.6 10.6 19.4 6C14.8 6.4 12.2 8.6 12.2 12.4Z" fill="white" />
             </svg>
           </span>
-          <div className="hidden sm:flex flex-col leading-none gap-0.5">
+          <div className="flex flex-col leading-none gap-0.5">
             <span
               className="text-[13px] font-bold text-gray-900 group-hover:text-gray-700 transition-colors"
               style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -63,7 +63,7 @@ export default function Navbar() {
         </a>
 
         {/* ── Desktop nav links ── */}
-        <div className="hidden md:flex items-center gap-1">
+        <div className="hidden lg:flex items-center gap-1">
           {links.map((l) => (
             <a
               key={l.label}
@@ -87,7 +87,7 @@ export default function Navbar() {
         <div className="flex items-center gap-3 flex-shrink-0">
           <a
             href="mailto:abhilashchandel@vt.edu"
-            className="hidden md:inline-flex items-center gap-2 text-sm font-bold px-5 py-2.5 rounded-full text-white transition-all duration-200 hover:opacity-90 hover:-translate-y-0.5 shadow-sm"
+            className="hidden lg:inline-flex items-center gap-2 text-sm font-bold px-5 py-2.5 rounded-full text-white transition-all duration-200 hover:opacity-90 hover:-translate-y-0.5 shadow-sm"
             style={{ background: "var(--vt-maroon)" }}
           >
             Get in Touch
@@ -95,7 +95,7 @@ export default function Navbar() {
 
           {/* Hamburger — mobile only */}
           <button
-            className="md:hidden flex items-center justify-center w-9 h-9 rounded-lg transition-colors"
+            className="lg:hidden flex items-center justify-center w-9 h-9 rounded-lg transition-colors"
             style={{ color: "var(--foreground)" }}
             aria-label={mobileOpen ? "Close menu" : "Open menu"}
             onClick={() => setMobileOpen((o) => !o)}
@@ -118,7 +118,7 @@ export default function Navbar() {
       {/* ── Mobile drawer ── */}
       {mobileOpen && (
         <div
-          className="md:hidden border-t"
+          className="lg:hidden border-t"
           style={{
             background:     "rgba(250,250,249,0.98)",
             borderColor:    "rgba(0,0,0,0.07)",

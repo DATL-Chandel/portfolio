@@ -14,8 +14,8 @@ export default function Hero() {
   return (
     <section
       ref={containerRef}
-      className="relative flex flex-col justify-start overflow-hidden"
-      style={{ background: "transparent", paddingTop: "180px", paddingBottom: "72px" }}
+      className="relative flex flex-col justify-start overflow-hidden pt-28 pb-12 lg:pt-[180px] lg:pb-[72px]"
+      style={{ background: "transparent" }}
     >
       {/* Gradient orb */}
       <div
@@ -26,7 +26,7 @@ export default function Hero() {
       />
 
       <div className="relative max-w-[1440px] mx-auto px-6 w-full">
-        <div className="flex items-center gap-12 lg:gap-20">
+        <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-20">
 
           {/* ── Left: text content ── */}
           <div className="flex-1 min-w-0">
@@ -97,7 +97,7 @@ export default function Hero() {
               {/* Primary */}
               <a
                 href="#research"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm font-semibold text-white transition-all hover:opacity-90 hover:-translate-y-0.5"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm font-semibold text-white transition-all hover:opacity-90 hover:-translate-y-0.5 w-full sm:w-auto justify-center sm:justify-start"
                 style={{ background: "var(--vt-maroon)" }}
               >
                 Explore Research
@@ -111,7 +111,7 @@ export default function Hero() {
                 href="https://datl-chandel.github.io/Agroclimate/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm font-semibold text-white transition-all hover:opacity-90 hover:-translate-y-0.5"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm font-semibold text-white transition-all hover:opacity-90 hover:-translate-y-0.5 w-full sm:w-auto justify-center sm:justify-start"
                 style={{ background: "var(--vt-maroon)" }}
               >
                 Agroclimate Viewer and Planner App (AgroVAP)
@@ -125,7 +125,7 @@ export default function Hero() {
                 href="https://scholar.google.com/citations?user=xCaMSKYAAAAJ&hl=en&oi=ao"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm font-semibold border-2 transition-all hover:-translate-y-0.5"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm font-semibold border-2 transition-all hover:-translate-y-0.5 w-full sm:w-auto justify-center sm:justify-start"
                 style={{
                   borderColor: "var(--vt-maroon)",
                   color:       "var(--vt-maroon)",
@@ -143,8 +143,8 @@ export default function Hero() {
           </div>
 
           {/* ── Right: profile photo (no duplicate badge) ── */}
-          <div className="opacity-0-init animate-fade-up delay-300 hidden lg:flex flex-shrink-0 items-center justify-center" style={{ marginRight: "48px" }}>
-            <div className="relative" style={{ width: 360, height: 360 }}>
+          <div className="opacity-0-init animate-fade-up delay-300 order-first lg:order-none flex flex-shrink-0 items-center justify-center lg:mr-12">
+            <div className="relative w-[200px] h-[200px] sm:w-[260px] sm:h-[260px] lg:w-[360px] lg:h-[360px]">
 
               {/* Circular photo frame */}
               <div
@@ -160,7 +160,7 @@ export default function Hero() {
                   alt="Dr. Abhilash Chandel"
                   fill
                   priority
-                  sizes="360px"
+                  sizes="(max-width: 1024px) 260px, 360px"
                   className="object-cover object-center scale-[1.02]"
                 />
               </div>
