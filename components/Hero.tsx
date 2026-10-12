@@ -106,6 +106,20 @@ export default function Hero() {
                 </svg>
               </a>
 
+              {/* Solid maroon — matches Explore Research */}
+              <a
+                href="https://datl-chandel.github.io/Agroclimate/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm font-semibold text-white transition-all hover:opacity-90 hover:-translate-y-0.5"
+                style={{ background: "var(--vt-maroon)" }}
+              >
+                Agroclimate Viewer and Planner App (AgroVAP)
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                  <path d="M2 10L10 2M10 2H4.5M10 2V7.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </a>
+
               {/* Elevated secondary — border + maroon text */}
               <a
                 href="https://scholar.google.com/citations?user=xCaMSKYAAAAJ&hl=en&oi=ao"
@@ -119,20 +133,6 @@ export default function Hero() {
                 }}
               >
                 Google Scholar
-                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-                  <path d="M2 10L10 2M10 2H4.5M10 2V7.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-              </a>
-
-              {/* Solid maroon — matches Explore Research */}
-              <a
-                href="https://datl-chandel.github.io/Agroclimate/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm font-semibold text-white transition-all hover:opacity-90 hover:-translate-y-0.5"
-                style={{ background: "var(--vt-maroon)" }}
-              >
-                Agroclimate Viewer and Planner App (AgroVAP)
                 <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
                   <path d="M2 10L10 2M10 2H4.5M10 2V7.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
